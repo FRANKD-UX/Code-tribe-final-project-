@@ -1,0 +1,93 @@
+
+.card {
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+.card-top {
+    padding: 30px;
+    text-align: left;
+}
+
+.card-top h2 {
+    color: #0e8c88;
+    margin-bottom: 10px;
+}
+
+.card-top h4 {
+    color: #9cd52b;
+    margin-bottom: 15px;
+}
+
+.card-top p {
+    color: #7c8a9a;
+}
+
+
+.card-bottom {
+    display: flex;
+    background-color: #34c0ba;
+    color: white;
+}
+
+
+.card-bottom-left,
+.card-bottom-right {
+    width: 50%;
+    padding: 30px;
+}
+
+.card-bottom-left h3 {
+    font-size: 18px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.subtext {
+    margin-bottom: 20px;
+}
+
+.signup-btn {
+    background-color: #d1ff49;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #c6f03f;
+}
+
+
+.card-bottom-right h3 {
+    margin-bottom: 10px;
+}
+
+.card-bottom-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card-bottom-right li {
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
