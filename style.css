@@ -783,20 +783,6 @@ footer {
         padding-top: 7rem;
     }
 }
- 
-#card1 {
-    background-color: orange;
-}
-
-#card2 {
-    background-color: yellow;
-}
-#card3 {
-    background-color: rgb(114, 134, 98);
-}
-#card4 {
-    background-color: rgb(255, 188, 188);
-}
 
 .card h3 {
     color: black; 
@@ -805,4 +791,10 @@ footer {
 .card p {
     font-size: large;
     font-style: italic; 
+}
+
+.calendar-note {
+    background-color: #72e0a346;
+    border-left: 4px solid var(--accent-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
 }
