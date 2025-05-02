@@ -16,6 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html {
@@ -31,7 +32,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: var(--primary-color);
     transition: var(--transition);
 }
@@ -306,6 +307,7 @@ main {
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .resource-card:hover {
