@@ -245,15 +245,15 @@ header p {
 }
 
 .cta-button {
-    display: inline-block;
-    background-color: var(--accent-color);
-    color: var(--dark-text);
-    padding: 30px 100px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: var(--transition);
-    margin-top: 1rem;
+    background-color: rgb(139, 173, 35); 
+  color: rgb(255, 255, 255); 
+  padding: 15px 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .cta-button:hover {
