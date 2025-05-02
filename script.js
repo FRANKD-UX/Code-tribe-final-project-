@@ -149,7 +149,15 @@ function showSignupModal() {
                         <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone">
                     </div>
-                    <button type="submit" class="signup-btn">Subscribe Now</button>
+                    <div class="form-group">
+                        <label for="Address">Address</label>
+                        <input type="address" id="address" name="address">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="city" id="city" name="city">
+                    </div>
+                    <button type="submit" class="signup-btn">Apply for Bootcamp Now!</button>
                 </form>
             </div>
         `;
