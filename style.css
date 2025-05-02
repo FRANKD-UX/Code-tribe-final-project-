@@ -197,7 +197,6 @@ header::before {
     width: 100%;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: var(--border-radius);
 }
 
 
@@ -250,7 +249,6 @@ header p {
     background-color: var(--accent-color);
     color: var(--dark-text);
     padding: 30px 100px;
-    border-radius: var(--border-radius);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
