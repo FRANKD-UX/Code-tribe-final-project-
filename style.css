@@ -859,11 +859,11 @@ footer {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .curriculum-table {
-        margin: 20px 0;
+        margin: 30px 0;
     }
     
     .curriculum-table th, 
     .curriculum-table td {
-        padding: 12px;
+        padding: 25px;
     }
 }
